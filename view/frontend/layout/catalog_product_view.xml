@@ -2,6 +2,6 @@
 
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="product.info.media.image" class="Skynix\ProductDefaultImage\Block\Product\View\Gallery"/>
+        <referenceBlock name="product.info.media.image" class="Skynix\ProductDefaultImage\Block\Product\View\Gallery" template="Magento_Catalog::product/view/gallery.phtml"/>
     </body>
 </page>
